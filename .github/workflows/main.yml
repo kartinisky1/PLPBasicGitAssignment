@@ -1,0 +1,7 @@
+cd C:\Users\user\Desktop\PLPBasicGitAssignment
+git init
+git remote add origin https://github.com/kartinisky1/PLPBasicGitAssignment.git
+echo Hello, Git! > hello.txt
+git commit -m "Add hello.txt with a greeting"
+git branch -M main
+git push -u origin main
